@@ -1,5 +1,5 @@
 # ChatrouletteLocator
-Script for determining the geolocation of the interlocutor on the site chatroulette/omegle/videochatru
+Script for determining the geolocation of the interlocutor on the chatroulette/omegle/videochatru
 
 Install from sources:
 ```bash
