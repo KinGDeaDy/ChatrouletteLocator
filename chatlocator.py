@@ -24,7 +24,7 @@ def get_ip_location(ip):
     return country, subdivision, city
 
 
-capture = pyshark.LiveCapture(interface='Беспроводная сеть')
+capture = pyshark.LiveCapture(interface='Ethernet')
 capture.set_debug()
 with open("filter_ips.txt") as f:
     ips = f.read().split("\n")
